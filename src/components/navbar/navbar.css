@@ -1,0 +1,43 @@
+.navbarItems{
+   height: 80px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size: 1.2rem;
+}
+.navbarLogo{
+
+}
+
+.nav-links{
+    color: black;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+.nav-links:hover{
+    font-size: 21px;
+    transition: all 0.25s ease-out;
+}
+
+.navMenu{
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    grid-gap: 10px;
+    list-style: none;
+    text-align: center;
+    width: 70vw;
+    justify-content: end;
+    margin-right: 2rem;
+}
+.fa-bars{
+    color: black;
+
+}
+
+.navLinksMobile{
+    display: none;
+}
+.menuIcon{
+    display: none; 
+}
+
