@@ -1,24 +1,24 @@
 export const MenuItems = [
     {
-        title: 'Post',
+        title: 'Post ',
         url: '#',
         cName: 'nav-links',
-        iName: 'fa-solid fa-circle-plus'
+        iName: 'fa-solid fa-circle-plus',
     },
     {
-        title: 'Reviews',
+        title: 'Reviews ',
         url: '#',
         cName: 'nav-links',
         iName: 'fa-solid fa-share-nodes'
     },
     {
-        title: 'Contact',
+        title: 'Contact ',
         url: '#',
         cName: 'nav-links',
         iName: 'fa-solid fa-address-card'
     },
     {
-        title: 'Profile',
+        title: 'Profile ',
         url: '#',
         cName: 'nav-links',
         iName: 'fa-solid fa-house-chimney'

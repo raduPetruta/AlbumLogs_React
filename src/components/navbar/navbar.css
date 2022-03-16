@@ -1,3 +1,6 @@
+.logo{
+    color: black;
+}
 .navbarItems{
    height: 80px;
    display: flex;
@@ -5,10 +8,6 @@
    align-items: center;
    font-size: 1.2rem;
 }
-.navbarLogo{
-
-}
-
 .nav-links{
     color: black;
     text-decoration: none;
@@ -29,15 +28,9 @@
     justify-content: end;
     margin-right: 2rem;
 }
-.fa-bars{
-    color: black;
-
-}
 
 .navLinksMobile{
     display: none;
 }
-.menuIcon{
-    display: none; 
-}
+ 
 

@@ -6,7 +6,6 @@ import { Button } from "./Button";
 class Navbar extends Component{
     
     state = {clicked : false};
-
     handleClick = () =>{
         this.setState({ clicked: !this.state.clicked});
     }
@@ -14,25 +13,20 @@ class Navbar extends Component{
     render(){
         return(
             <nav className="navbarItems">
-                <h1 className="navbarLogo">LOGO</h1>
-                
-                <div className="menuIcon" onClick={this.handleClick} >
-                    <i className={this.state.clicked ? 'fas fa-times' : 'fas fa-bars'}></i>
-                </div>
 
+                <h1 className="logo">LOGO</h1>
+                
                 <ul className={this.state.clicked ? 'navMenuActive' : 'navMenu'}>
-                    {MenuItems.map((item, index) => {
+                   
+                    {MenuItems.map((item) => {
                         return (
-                            <li key={index} className="listStyle">
-                                <a className={item.cName} href={item.url}>
-                                    {item.title}<i class={item.iName}></i>
-                                </a>
+                            <li className="listStyle">
+                                <a className={item.cName} href={item.url}>{item.title} <i class={item.iName}></i> </a>
                             </li>
                         )
                     })}
                 </ul>
-                <Button>Sign Up</Button>
-            
+                <Button/> 
             </nav>
         )
     }
@@ -40,4 +34,5 @@ class Navbar extends Component{
 
 export default Navbar
 
+ 
  
